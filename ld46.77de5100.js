@@ -39908,7 +39908,7 @@ function (_super) {
         duration: 4000
       }); // 15
 
-      for (var i = 0; i < 1; i++) {
+      for (var i = 0; i < 15; i++) {
         this.addRandomWaddler(Phaser.Math.Between(2500, 3500) * i);
       }
     } else if (this._wave === 2) {
@@ -39919,7 +39919,7 @@ function (_super) {
         duration: 4000
       }); // 25
 
-      for (var i = 0; i < 1; i++) {
+      for (var i = 0; i < 25; i++) {
         this.addRandomWaddler(Phaser.Math.Between(1500, 3000) * i);
       }
     } else if (this._wave === 3) {
@@ -39930,7 +39930,7 @@ function (_super) {
         duration: 4000
       }); // 40
 
-      for (var i = 0; i < 1; i++) {
+      for (var i = 0; i < 40; i++) {
         this.addRandomWaddler(Phaser.Math.Between(500, 2000) * i);
       }
     }
@@ -40448,7 +40448,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50307" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50536" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
